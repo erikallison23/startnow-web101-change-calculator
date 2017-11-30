@@ -1,0 +1,135 @@
+
+html {
+    margin: 0;
+    background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/H0MA-uKSipsekm5s/digitally-generated-simple-underwater-background-blue-wavy-water-surface-with-foam-and-sand-bottom-realistic-3d-animation_sifx7tsk_thumbnail-full01.png);
+    background-size: auto;
+
+}
+
+body {
+    background-color: transparent;
+ 
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+p {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.overlay {
+    background:url(http://www.golocalprov.com/cache/images/cached/cache/images/remote/http_s3.amazonaws.com/media.golocalprov.com/Business/bluemoney_400_400_90.jpg);
+    max-width: 140px;
+    height: 150px;
+    border-radius: 30px 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    box-shadow: 0 4px 0 2px;
+    text-align:center; 
+    margin: auto;
+    padding-top: 25px;
+    font-size: 20px;
+    
+}
+
+.overlay.large {
+    max-width: 400px;
+    height: 150px;
+    
+   
+}
+
+.overlay-calc {
+    margin-top:100px;
+}
+
+.overlay-dollars {
+    margin-top: 30px;
+
+}
+
+.overlay-quarters {
+    margin-top:30px;
+}
+
+.overlay-dimes {
+    margin-top:30px;
+}
+
+.overlay-nickels {
+    margin-top:30px;
+}
+
+.overlay-pennies {
+    margin-top:30px;
+    
+    
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#calculate-button {
+    background: navy;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+#due {
+    text-align: center;
+    width: 150px;
+    border-style: solid;
+}
+
+#paid {
+    text-align: center;
+    width: 150px;
+    border-style: solid;
+    
+}
+
+#output-dollars {
+    text-align: center;
+}
+
+#output-quarters {
+    text-align: center;    
+}
+
+#output-dimes {
+    text-align: center;
+}
+
+#output-nickels {
+    text-align: center;    
+}
+
+#output-pennies {
+    text-align: center;                
+}
+#change-row .col-md-3:first-of-type, #change-row .col-md-3:last-of-type {
+    margin-top: -75px;
+}

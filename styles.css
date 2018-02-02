@@ -3,12 +3,10 @@ html {
     margin: 0;
     background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/H0MA-uKSipsekm5s/digitally-generated-simple-underwater-background-blue-wavy-water-surface-with-foam-and-sand-bottom-realistic-3d-animation_sifx7tsk_thumbnail-full01.png);
     background-size: auto;
-
 }
 
 body {
     background-color: transparent;
- 
 }
 
 h1 {
@@ -18,13 +16,13 @@ h1 {
     font-size: 30px;
     margin-top: 25px;
     text-align: center;
-    
 }
 
 p {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -45,15 +43,12 @@ p {
     text-align:center; 
     margin: auto;
     padding-top: 25px;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 .overlay.large {
     max-width: 400px;
     height: 150px;
-    
-   
 }
 
 .overlay-calc {
@@ -62,7 +57,6 @@ p {
 
 .overlay-dollars {
     margin-top: 30px;
-
 }
 
 .overlay-quarters {
@@ -78,10 +72,9 @@ p {
 }
 
 .overlay-pennies {
-    margin-top:30px;
-    
-    
+    margin-top:30px;  
 }
+
 .row {
     margin-right: -15px;
     margin-left: -15px;
@@ -94,8 +87,7 @@ p {
     border-width: 2px;
     border-color: white;
     text-align: center;
-    margin-top: 10px;
-   
+    margin-top: 10px;  
 }
 
 #due {
@@ -107,8 +99,7 @@ p {
 #paid {
     text-align: center;
     width: 150px;
-    border-style: solid;
-    
+    border-style: solid; 
 }
 
 #output-dollars {

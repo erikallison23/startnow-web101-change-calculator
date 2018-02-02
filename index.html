@@ -7,15 +7,13 @@
     crossorigin="anonymous">
   <link rel='stylesheet' href='styles.css'>
   <title>Change Calculator</title>
-  
+
 </head>
 
 <body>
-    <h1>$ Change Calculator $</h1>
+  <h1>$ Change Calculator $</h1>
 
   <div class='container'>
-
-     
 
     <div class='row'>
 
@@ -24,49 +22,48 @@
         <input id='paid' type='number' placeholder='amount paid' />
         <button id='calculate-button' class='btn btn-prmary btn-md'>Calculate Change</button>
       </div>
-        </div>
+    </div>
 
-      <div class='row'>
+    <div class='row'>
 
-        <div class='col-md-4 offset-md-4 overlay large overlay-dollars'>
-          <p>Dollars</p>
-          <p id='output-dollars'>0</p>
-        </div>
+      <div class='col-md-4 offset-md-4 overlay large overlay-dollars'>
+        <p>Dollars</p>
+        <p id='output-dollars'>0</p>
       </div>
+    </div>
 
-      <div id='change-row' class='row'>
+    <div id='change-row' class='row'>
 
-        <div class='col-md-3'>
+      <div class='col-md-3'>
 
         <div class='overlay overlay-quarters'>
           <p>Quarters</p>
           <p id='output-quarters'>0</p>
         </div>
-        </div>
+      </div>
 
-        <div class='col-md-3'>
+      <div class='col-md-3'>
         <div class='overlay overlay-dimes'>
           <p>Dimes</p>
           <p id='output-dimes'>0</p>
         </div>
       </div>
 
-        <div class='col-md-3'>
+      <div class='col-md-3'>
         <div class='overlay overlay-nickels'>
           <p>Nickels</p>
           <p id='output-nickels'>0 </p>
         </div>
       </div>
 
-        <div class='col-md-3'>
+      <div class='col-md-3'>
         <div class='overlay overlay-pennies'>
           <p>Pennies</p>
           <p id='output-pennies'>0</p>
-          </div>
-        </div>
         </div>
       </div>
-  
+    </div>
+  </div>
 
 
   <script src='main.js' charset='utf-8'></script>
